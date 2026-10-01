@@ -1,0 +1,51 @@
+﻿SKU ID,Seller SKU,Product Name,Category,Brand,UOM,Standard Cost,Current Cost,Cost Delta,Cost Change %,Last Cost Change,Costing Method,Supplier
+SRC-0001,SS-SRC-0001,Air Mineral 600 ml,Minuman,Tirta Segar,pcs,2950,2950,0,0.00,2023-05-16,Weighted Average,PT Mitra Distribusi Utama
+SRC-0002,SS-SRC-0002,Air Mineral 1500 ml,Minuman,Sari Bumi,pcs,4300,4300,0,0.00,2023-12-17,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0003,SS-SRC-0003,Teh Kotak Original 300 ml,Minuman,Kelinci Putih,pcs,4200,4200,0,0.00,2024-03-31,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0004,SS-SRC-0004,Jus Jeruk 1 L,Minuman,Tirta Segar,pcs,15000,15000,0,0.00,2024-08-10,Weighted Average,PT Global FMCG Supply
+SRC-0005,SS-SRC-0005,Susu UHT Cokelat 1 L,Minuman,Sari Bumi,pcs,13900,13900,0,0.00,2024-10-30,Weighted Average,PT Mitra Distribusi Utama
+SRC-0006,SS-SRC-0006,Susu UHT Plain 1 L,Minuman,Kelinci Putih,pcs,12700,12700,0,0.00,2022-09-07,Weighted Average,PT Sentra Bahan Pokok
+SRC-0007,SS-SRC-0007,Susu Kental Manis 370 gr,Minuman,Tirta Segar,pcs,8100,8350,250,3.09,2025-08-01,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0008,SS-SRC-0008,Minuman Isotonik 500 ml,Minuman,Sari Bumi,pcs,5100,5550,450,8.82,2025-09-01,Weighted Average,PT Sentra Bahan Pokok
+SRC-0009,SS-SRC-0009,Susu Kedelai 250 ml,Minuman,Kelinci Putih,pcs,4500,4500,0,0.00,2023-11-26,Weighted Average,PT Sentra Bahan Pokok
+SRC-0010,SS-SRC-0010,Susu Fermentasi 200 ml,Minuman,Tirta Segar,pcs,5350,5350,0,0.00,2023-07-30,Weighted Average,PT Sentra Bahan Pokok
+SRC-0011,SS-SRC-0011,Mie Instan Goreng 85 gr,Makanan Instan,Bintang Pagi,pcs,2500,2500,0,0.00,2022-09-16,Weighted Average,PT Sumber Pangan Nusantara
+SRC-0012,SS-SRC-0012,Mie Instan Kuah Ayam 75 gr,Makanan Instan,Nusantara,pcs,2600,2600,0,0.00,2023-01-07,Weighted Average,PT Sentra Bahan Pokok
+SRC-0013,SS-SRC-0013,Mie Instan Kuah Sapi 75 gr,Makanan Instan,Prima Rasa,pcs,2250,2200,-50,-2.22,2025-08-01,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0014,SS-SRC-0014,Bubur Instan Ayam 40 gr,Makanan Instan,Bintang Pagi,pcs,3600,3600,0,0.00,2022-10-31,Weighted Average,PT Sumber Pangan Nusantara
+SRC-0015,SS-SRC-0015,Sarden Kaleng 155 gr,Makanan Instan,Nusantara,pcs,9000,9000,0,0.00,2023-04-26,Weighted Average,PT Mitra Distribusi Utama
+SRC-0016,SS-SRC-0016,Kornet Sapi Kaleng 198 gr,Makanan Instan,Prima Rasa,pcs,14450,14450,0,0.00,2023-04-22,Weighted Average,PT Mitra Distribusi Utama
+SRC-0017,SS-SRC-0017,Nugget Ayam 500 gr,Makanan Instan,Bintang Pagi,pack,21100,21100,0,0.00,2022-09-13,Weighted Average,CV Berkah Sembako
+SRC-0018,SS-SRC-0018,Sosis Ayam 500 gr,Makanan Instan,Nusantara,pack,20100,20100,0,0.00,2023-10-12,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0019,SS-SRC-0019,Keripik Kentang Original 68 gr,Snack,Aroma Jaya,pcs,7650,7650,0,0.00,2024-06-01,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0020,SS-SRC-0020,Biskuit Cokelat 300 gr,Snack,Cahaya,pcs,9800,9800,0,0.00,2022-10-17,Weighted Average,PT Global FMCG Supply
+SRC-0021,SS-SRC-0021,Wafer Cokelat 145 gr,Snack,Prima Rasa,pcs,6850,6850,0,0.00,2024-11-30,Weighted Average,PT Mitra Distribusi Utama
+SRC-0022,SS-SRC-0022,Cokelat Batang 65 gr,Snack,Aroma Jaya,pcs,7900,7900,0,0.00,2024-11-19,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0023,SS-SRC-0023,Permen Mint 125 gr,Snack,Cahaya,pcs,6000,6000,0,0.00,2024-09-18,Weighted Average,PT Sentra Bahan Pokok
+SRC-0024,SS-SRC-0024,Kacang Atom 200 gr,Snack,Prima Rasa,pcs,9350,9350,0,0.00,2024-11-16,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0025,SS-SRC-0025,Kerupuk Udang 200 gr,Snack,Aroma Jaya,pcs,6550,6550,0,0.00,2022-08-23,Weighted Average,PT Global FMCG Supply
+SRC-0026,SS-SRC-0026,Biskuit Marie 250 gr,Snack,Cahaya,pcs,7100,7100,0,0.00,2024-11-26,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0027,SS-SRC-0027,Kecap Manis 520 ml,Bumbu & Rempah,Aroma Jaya,pcs,11850,11750,-100,-0.84,2025-08-01,Weighted Average,CV Berkah Sembako
+SRC-0028,SS-SRC-0028,Saus Sambal 335 ml,Bumbu & Rempah,Matahari,pcs,9550,9550,0,0.00,2024-10-21,Weighted Average,CV Berkah Sembako
+SRC-0029,SS-SRC-0029,Saus Tomat 335 ml,Bumbu & Rempah,Nusantara,pcs,8400,8400,0,0.00,2023-09-15,Weighted Average,PT Sumber Pangan Nusantara
+SRC-0030,SS-SRC-0030,Garam Beryodium 250 gr,Bumbu & Rempah,Aroma Jaya,pcs,2600,2600,0,0.00,2024-07-23,Weighted Average,PT Sentra Bahan Pokok
+SRC-0031,SS-SRC-0031,Gula Pasir 1 kg,Bumbu & Rempah,Matahari,pack,10050,10050,0,0.00,2023-02-15,Weighted Average,PT Sumber Pangan Nusantara
+SRC-0032,SS-SRC-0032,Kaldu Ayam Blok 100 gr,Bumbu & Rempah,Nusantara,pcs,5600,5600,0,0.00,2023-09-20,Weighted Average,PT Mitra Distribusi Utama
+SRC-0033,SS-SRC-0033,Merica Bubuk 30 gr,Bumbu & Rempah,Aroma Jaya,pcs,6850,6850,0,0.00,2023-03-05,Weighted Average,PT Global FMCG Supply
+SRC-0034,SS-SRC-0034,Bawang Goreng 100 gr,Bumbu & Rempah,Matahari,pcs,11650,11650,0,0.00,2024-11-21,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0035,SS-SRC-0035,Sabun Cair 450 ml,Perawatan Tubuh,Segar Alami,pcs,21050,21050,0,0.00,2023-04-06,Weighted Average,PT Sumber Pangan Nusantara
+SRC-0036,SS-SRC-0036,Shampoo Anti Ketombe 340 ml,Perawatan Tubuh,Kelinci Putih,pcs,27700,27700,0,0.00,2024-10-03,Weighted Average,PT Sentra Bahan Pokok
+SRC-0037,SS-SRC-0037,Pasta Gigi 190 gr,Perawatan Tubuh,Cahaya,pcs,12050,12050,0,0.00,2024-11-03,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0038,SS-SRC-0038,Deodoran Roll On 50 ml,Perawatan Tubuh,Segar Alami,pcs,13700,13700,0,0.00,2024-11-09,Weighted Average,PT Global FMCG Supply
+SRC-0039,SS-SRC-0039,Sabun Batang 85 gr,Perawatan Tubuh,Kelinci Putih,pcs,2900,3050,150,5.17,2025-09-01,Weighted Average,PT Sentra Bahan Pokok
+SRC-0040,SS-SRC-0040,Hand Sanitizer 100 ml,Perawatan Tubuh,Cahaya,pcs,8850,8850,0,0.00,2023-04-30,Weighted Average,CV Berkah Sembako
+SRC-0041,SS-SRC-0041,Deterjen Bubuk 800 gr,Perawatan Rumah,Cahaya,pack,17800,17800,0,0.00,2023-11-23,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0042,SS-SRC-0042,Deterjen Cair 1 L,Perawatan Rumah,Tirta Segar,pcs,23350,23350,0,0.00,2023-04-24,Weighted Average,PT Sentra Bahan Pokok
+SRC-0043,SS-SRC-0043,Pembersih Lantai 800 ml,Perawatan Rumah,Segar Alami,pcs,13700,12700,-1000,-7.30,2025-09-01,Weighted Average,PT Sumber Pangan Nusantara
+SRC-0044,SS-SRC-0044,Sabun Cuci Piring 750 ml,Perawatan Rumah,Cahaya,pcs,12750,12750,0,0.00,2023-08-16,Weighted Average,PT Mitra Distribusi Utama
+SRC-0045,SS-SRC-0045,Pemutih Pakaian 1 L,Perawatan Rumah,Tirta Segar,pcs,10950,10950,0,0.00,2023-07-17,Weighted Average,PT Mitra Distribusi Utama
+SRC-0046,SS-SRC-0046,Pelembut Pakaian 1 L,Perawatan Rumah,Segar Alami,pcs,12850,12850,0,0.00,2024-03-14,Weighted Average,PT Mitra Distribusi Utama
+SRC-0047,SS-SRC-0047,Kopi Bubuk 250 gr,Kopi & Teh,Matahari,pack,27350,28850,1500,5.48,2025-09-01,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0048,SS-SRC-0048,Kopi Instan Sachet (10x),Kopi & Teh,Aroma Jaya,pack,11900,11900,0,0.00,2023-03-24,Weighted Average,PT Mitra Distribusi Utama
+SRC-0049,SS-SRC-0049,Teh Celup 25 Bags,Kopi & Teh,Bintang Pagi,pack,7900,7900,0,0.00,2023-12-31,Weighted Average,PT Aneka Konsumsi Jaya
+SRC-0050,SS-SRC-0050,Kopi Susu Sachet (10x),Kopi & Teh,Matahari,pack,17400,18250,850,4.89,2025-08-01,Weighted Average,PT Global FMCG Supply

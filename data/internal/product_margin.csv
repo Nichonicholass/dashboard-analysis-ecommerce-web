@@ -1,0 +1,97 @@
+﻿SKU ID,Seller SKU,Product Name,Category,Channel,Units Sold,Net Revenue,COGS,Gross Profit,Gross Margin %
+SRC-0001,SS-SRC-0001,Air Mineral 600 ml,Minuman,Shopee,21,62200,61950,250,0.40
+SRC-0001,SS-SRC-0001,Air Mineral 600 ml,Minuman,TikTok Shop,30,102950,88500,14450,14.04
+SRC-0002,SS-SRC-0002,Air Mineral 1500 ml,Minuman,Shopee,18,99700,77400,22300,22.37
+SRC-0002,SS-SRC-0002,Air Mineral 1500 ml,Minuman,TikTok Shop,14,76050,60200,15850,20.84
+SRC-0003,SS-SRC-0003,Teh Kotak Original 300 ml,Minuman,Shopee,20,86900,84000,2900,3.34
+SRC-0003,SS-SRC-0003,Teh Kotak Original 300 ml,Minuman,TikTok Shop,8,33450,33600,-150,-0.45
+SRC-0004,SS-SRC-0004,Jus Jeruk 1 L,Minuman,Shopee,8,138350,120000,18350,13.26
+SRC-0004,SS-SRC-0004,Jus Jeruk 1 L,Minuman,TikTok Shop,6,103850,90000,13850,13.34
+SRC-0005,SS-SRC-0005,Susu UHT Cokelat 1 L,Minuman,Shopee,19,284450,264100,20350,7.15
+SRC-0005,SS-SRC-0005,Susu UHT Cokelat 1 L,Minuman,TikTok Shop,23,340300,319700,20600,6.05
+SRC-0006,SS-SRC-0006,Susu UHT Plain 1 L,Minuman,Shopee,11,150450,139700,10750,7.15
+SRC-0006,SS-SRC-0006,Susu UHT Plain 1 L,Minuman,TikTok Shop,14,210050,177800,32250,15.35
+SRC-0007,SS-SRC-0007,Susu Kental Manis 370 gr,Minuman,Shopee,14,125400,115495,9905,7.90
+SRC-0007,SS-SRC-0007,Susu Kental Manis 370 gr,Minuman,TikTok Shop,12,116550,99545,17005,14.59
+SRC-0008,SS-SRC-0008,Minuman Isotonik 500 ml,Minuman,Shopee,8,49850,41476,8374,16.80
+SRC-0008,SS-SRC-0008,Minuman Isotonik 500 ml,Minuman,TikTok Shop,10,58550,51676,6874,11.74
+SRC-0009,SS-SRC-0009,Susu Kedelai 250 ml,Minuman,Shopee,2,10000,9000,1000,10.00
+SRC-0009,SS-SRC-0009,Susu Kedelai 250 ml,Minuman,TikTok Shop,5,24800,22500,2300,9.27
+SRC-0010,SS-SRC-0010,Susu Fermentasi 200 ml,Minuman,TikTok Shop,1,8250,5350,2900,35.15
+SRC-0011,SS-SRC-0011,Mie Instan Goreng 85 gr,Makanan Instan,Shopee,15,45700,37500,8200,17.94
+SRC-0011,SS-SRC-0011,Mie Instan Goreng 85 gr,Makanan Instan,TikTok Shop,21,64400,52500,11900,18.48
+SRC-0012,SS-SRC-0012,Mie Instan Kuah Ayam 75 gr,Makanan Instan,Shopee,21,59750,54600,5150,8.62
+SRC-0012,SS-SRC-0012,Mie Instan Kuah Ayam 75 gr,Makanan Instan,TikTok Shop,11,28950,28600,350,1.21
+SRC-0013,SS-SRC-0013,Mie Instan Kuah Sapi 75 gr,Makanan Instan,Shopee,12,31700,26600,5100,16.09
+SRC-0013,SS-SRC-0013,Mie Instan Kuah Sapi 75 gr,Makanan Instan,TikTok Shop,10,27250,22241,5009,18.38
+SRC-0014,SS-SRC-0014,Bubur Instan Ayam 40 gr,Makanan Instan,TikTok Shop,12,47200,43200,4000,8.47
+SRC-0015,SS-SRC-0015,Sarden Kaleng 155 gr,Makanan Instan,Shopee,2,22050,18000,4050,18.37
+SRC-0015,SS-SRC-0015,Sarden Kaleng 155 gr,Makanan Instan,TikTok Shop,16,168300,144000,24300,14.44
+SRC-0016,SS-SRC-0016,Kornet Sapi Kaleng 198 gr,Makanan Instan,Shopee,6,105700,86700,19000,17.98
+SRC-0017,SS-SRC-0017,Nugget Ayam 500 gr,Makanan Instan,Shopee,1,23900,21100,2800,11.72
+SRC-0017,SS-SRC-0017,Nugget Ayam 500 gr,Makanan Instan,TikTok Shop,8,225100,168800,56300,25.01
+SRC-0018,SS-SRC-0018,Sosis Ayam 500 gr,Makanan Instan,Shopee,11,254900,221100,33800,13.26
+SRC-0018,SS-SRC-0018,Sosis Ayam 500 gr,Makanan Instan,TikTok Shop,13,312400,261300,51100,16.36
+SRC-0019,SS-SRC-0019,Keripik Kentang Original 68 gr,Snack,Shopee,12,113250,91800,21450,18.94
+SRC-0019,SS-SRC-0019,Keripik Kentang Original 68 gr,Snack,TikTok Shop,9,83000,68850,14150,17.05
+SRC-0020,SS-SRC-0020,Biskuit Cokelat 300 gr,Snack,Shopee,9,107050,88200,18850,17.61
+SRC-0020,SS-SRC-0020,Biskuit Cokelat 300 gr,Snack,TikTok Shop,12,133650,117600,16050,12.01
+SRC-0021,SS-SRC-0021,Wafer Cokelat 145 gr,Snack,Shopee,4,31350,27400,3950,12.60
+SRC-0021,SS-SRC-0021,Wafer Cokelat 145 gr,Snack,TikTok Shop,6,52100,41100,11000,21.11
+SRC-0022,SS-SRC-0022,Cokelat Batang 65 gr,Snack,Shopee,9,87800,71100,16700,19.02
+SRC-0022,SS-SRC-0022,Cokelat Batang 65 gr,Snack,TikTok Shop,8,76300,63200,13100,17.17
+SRC-0023,SS-SRC-0023,Permen Mint 125 gr,Snack,Shopee,12,78750,72000,6750,8.57
+SRC-0023,SS-SRC-0023,Permen Mint 125 gr,Snack,TikTok Shop,9,57850,54000,3850,6.66
+SRC-0024,SS-SRC-0024,Kacang Atom 200 gr,Snack,Shopee,2,19500,18700,800,4.10
+SRC-0024,SS-SRC-0024,Kacang Atom 200 gr,Snack,TikTok Shop,7,72950,65450,7500,10.28
+SRC-0025,SS-SRC-0025,Kerupuk Udang 200 gr,Snack,Shopee,3,20700,19650,1050,5.07
+SRC-0025,SS-SRC-0025,Kerupuk Udang 200 gr,Snack,TikTok Shop,5,36300,32750,3550,9.78
+SRC-0026,SS-SRC-0026,Biskuit Marie 250 gr,Snack,Shopee,7,57800,49700,8100,14.01
+SRC-0026,SS-SRC-0026,Biskuit Marie 250 gr,Snack,TikTok Shop,12,100200,85200,15000,14.97
+SRC-0027,SS-SRC-0027,Kecap Manis 520 ml,Bumbu & Rempah,Shopee,12,167450,141810,25640,15.31
+SRC-0027,SS-SRC-0027,Kecap Manis 520 ml,Bumbu & Rempah,TikTok Shop,9,121250,106432,14818,12.22
+SRC-0028,SS-SRC-0028,Saus Sambal 335 ml,Bumbu & Rempah,Shopee,27,294350,257850,36500,12.40
+SRC-0028,SS-SRC-0028,Saus Sambal 335 ml,Bumbu & Rempah,TikTok Shop,7,73650,66850,6800,9.23
+SRC-0029,SS-SRC-0029,Saus Tomat 335 ml,Bumbu & Rempah,Shopee,2,19050,16800,2250,11.81
+SRC-0029,SS-SRC-0029,Saus Tomat 335 ml,Bumbu & Rempah,TikTok Shop,19,208850,159600,49250,23.58
+SRC-0030,SS-SRC-0030,Garam Beryodium 250 gr,Bumbu & Rempah,Shopee,16,42250,41600,650,1.54
+SRC-0030,SS-SRC-0030,Garam Beryodium 250 gr,Bumbu & Rempah,TikTok Shop,21,60950,54600,6350,10.42
+SRC-0031,SS-SRC-0031,Gula Pasir 1 kg,Bumbu & Rempah,Shopee,9,113700,90450,23250,20.45
+SRC-0031,SS-SRC-0031,Gula Pasir 1 kg,Bumbu & Rempah,TikTok Shop,10,125000,100500,24500,19.60
+SRC-0032,SS-SRC-0032,Kaldu Ayam Blok 100 gr,Bumbu & Rempah,Shopee,6,35250,33600,1650,4.68
+SRC-0032,SS-SRC-0032,Kaldu Ayam Blok 100 gr,Bumbu & Rempah,TikTok Shop,8,49300,44800,4500,9.13
+SRC-0033,SS-SRC-0033,Merica Bubuk 30 gr,Bumbu & Rempah,Shopee,4,28100,27400,700,2.49
+SRC-0033,SS-SRC-0033,Merica Bubuk 30 gr,Bumbu & Rempah,TikTok Shop,2,17300,13700,3600,20.81
+SRC-0034,SS-SRC-0034,Bawang Goreng 100 gr,Bumbu & Rempah,Shopee,7,87600,81550,6050,6.91
+SRC-0035,SS-SRC-0035,Sabun Cair 450 ml,Perawatan Tubuh,Shopee,9,200200,189450,10750,5.37
+SRC-0035,SS-SRC-0035,Sabun Cair 450 ml,Perawatan Tubuh,TikTok Shop,19,463800,399950,63850,13.77
+SRC-0036,SS-SRC-0036,Shampoo Anti Ketombe 340 ml,Perawatan Tubuh,Shopee,9,309100,249300,59800,19.35
+SRC-0036,SS-SRC-0036,Shampoo Anti Ketombe 340 ml,Perawatan Tubuh,TikTok Shop,7,254850,193900,60950,23.92
+SRC-0037,SS-SRC-0037,Pasta Gigi 190 gr,Perawatan Tubuh,Shopee,13,186500,156650,29850,16.01
+SRC-0037,SS-SRC-0037,Pasta Gigi 190 gr,Perawatan Tubuh,TikTok Shop,5,75450,60250,15200,20.15
+SRC-0038,SS-SRC-0038,Deodoran Roll On 50 ml,Perawatan Tubuh,Shopee,4,70400,54800,15600,22.16
+SRC-0038,SS-SRC-0038,Deodoran Roll On 50 ml,Perawatan Tubuh,TikTok Shop,3,52700,41100,11600,22.01
+SRC-0039,SS-SRC-0039,Sabun Batang 85 gr,Perawatan Tubuh,Shopee,14,49750,40657,9093,18.28
+SRC-0039,SS-SRC-0039,Sabun Batang 85 gr,Perawatan Tubuh,TikTok Shop,7,26600,20300,6300,23.68
+SRC-0040,SS-SRC-0040,Hand Sanitizer 100 ml,Perawatan Tubuh,Shopee,1,8300,8850,-550,-6.63
+SRC-0040,SS-SRC-0040,Hand Sanitizer 100 ml,Perawatan Tubuh,TikTok Shop,2,19000,17700,1300,6.84
+SRC-0041,SS-SRC-0041,Deterjen Bubuk 800 gr,Perawatan Rumah,Shopee,7,133800,124600,9200,6.88
+SRC-0041,SS-SRC-0041,Deterjen Bubuk 800 gr,Perawatan Rumah,TikTok Shop,17,340100,302600,37500,11.03
+SRC-0042,SS-SRC-0042,Deterjen Cair 1 L,Perawatan Rumah,Shopee,15,395400,350250,45150,11.42
+SRC-0042,SS-SRC-0042,Deterjen Cair 1 L,Perawatan Rumah,TikTok Shop,7,195800,163450,32350,16.52
+SRC-0043,SS-SRC-0043,Pembersih Lantai 800 ml,Perawatan Rumah,Shopee,13,207450,177428,30022,14.47
+SRC-0043,SS-SRC-0043,Pembersih Lantai 800 ml,Perawatan Rumah,TikTok Shop,10,153050,136904,16146,10.55
+SRC-0044,SS-SRC-0044,Sabun Cuci Piring 750 ml,Perawatan Rumah,Shopee,10,138750,127500,11250,8.11
+SRC-0044,SS-SRC-0044,Sabun Cuci Piring 750 ml,Perawatan Rumah,TikTok Shop,22,287750,280500,7250,2.52
+SRC-0045,SS-SRC-0045,Pemutih Pakaian 1 L,Perawatan Rumah,Shopee,6,68300,65700,2600,3.81
+SRC-0045,SS-SRC-0045,Pemutih Pakaian 1 L,Perawatan Rumah,TikTok Shop,9,108700,98550,10150,9.34
+SRC-0046,SS-SRC-0046,Pelembut Pakaian 1 L,Perawatan Rumah,Shopee,2,34100,25700,8400,24.63
+SRC-0046,SS-SRC-0046,Pelembut Pakaian 1 L,Perawatan Rumah,TikTok Shop,6,104300,77100,27200,26.08
+SRC-0047,SS-SRC-0047,Kopi Bubuk 250 gr,Kopi & Teh,Shopee,19,538650,521650,17000,3.16
+SRC-0047,SS-SRC-0047,Kopi Bubuk 250 gr,Kopi & Teh,TikTok Shop,12,374250,330450,43800,11.70
+SRC-0048,SS-SRC-0048,Kopi Instan Sachet (10x),Kopi & Teh,Shopee,9,121800,107100,14700,12.07
+SRC-0048,SS-SRC-0048,Kopi Instan Sachet (10x),Kopi & Teh,TikTok Shop,4,65150,47600,17550,26.94
+SRC-0049,SS-SRC-0049,Teh Celup 25 Bags,Kopi & Teh,Shopee,13,130800,102700,28100,21.48
+SRC-0049,SS-SRC-0049,Teh Celup 25 Bags,Kopi & Teh,TikTok Shop,16,148900,126400,22500,15.11
+SRC-0050,SS-SRC-0050,Kopi Susu Sachet (10x),Kopi & Teh,Shopee,1,16950,18250,-1300,-7.67
+SRC-0050,SS-SRC-0050,Kopi Susu Sachet (10x),Kopi & Teh,TikTok Shop,12,229150,214755,14395,6.28

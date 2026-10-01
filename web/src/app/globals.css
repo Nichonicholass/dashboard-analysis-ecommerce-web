@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/*
+ * Deliberately light-only. The scaffolded stylesheet flipped to a dark palette via
+ * `prefers-color-scheme`, which fought the light card and table styling and produced
+ * dark-on-dark headings. A finance dashboard is read in daylight; pinning one theme
+ * keeps contrast predictable.
+ */
+
+html {
+  color-scheme: light;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}

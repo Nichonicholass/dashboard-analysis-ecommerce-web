@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asisten AM — Stok &amp; Margin</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --line: #e3e6ea;
+    --text: #16181d;
+    --muted: #6b7280;
+    --red: #b91c1c;
+    --red-bg: #fef2f2;
+    --amber: #b45309;
+    --amber-bg: #fffbeb;
+    --green: #15803d;
+    --green-bg: #f0fdf4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 24px 20px 56px; }
+
+  header.top { margin-bottom: 18px; }
+  header.top h1 { margin: 0; font-size: 20px; letter-spacing: -0.01em; }
+  header.top p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+  .card > h2 {
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--line);
+  }
+  .card > h2 small { display: block; margin-top: 2px; font-weight: 400; color: var(--muted); }
+  .card .body { padding: 16px; }
+
+  /* drop zone */
+  .drop {
+    border: 2px dashed #c6ccd4;
+    border-radius: 10px;
+    background: #fbfcfd;
+    padding: 32px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background .15s, border-color .15s;
+  }
+  .drop:hover, .drop.aktif { background: #f0f6ff; border-color: #7aa7e0; }
+  .drop strong { display: block; font-size: 15px; }
+  .drop span { display: block; margin-top: 4px; color: var(--muted); font-size: 13px; }
+
+  .baris { margin-top: 12px; font-size: 13px; color: var(--muted); }
+  .baris b { color: var(--text); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--line); }
+  th {
+    font-size: 11px; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--muted); font-weight: 600; background: #fafbfc; white-space: nowrap;
+  }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tbody tr:hover { background: #fafbfc; }
+  tbody tr:last-child td { border-bottom: none; }
+  .nama { font-weight: 500; }
+  .kode { display: block; font-size: 11.5px; color: var(--muted); font-family: ui-monospace, monospace; }
+
+  .tag {
+    display: inline-block; padding: 1px 7px; border-radius: 999px;
+    font-size: 11.5px; font-weight: 600; white-space: nowrap;
+  }
+  .tag.merah { background: var(--red-bg); color: var(--red); }
+  .tag.kuning { background: var(--amber-bg); color: var(--amber); }
+  .tag.hijau { background: var(--green-bg); color: var(--green); }
+  .tag.abu { background: #f1f3f5; color: var(--muted); }
+  .tag.gelap { background: #16181d; color: #fff; }
+
+  .angka { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .angka > div { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .angka dt { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  .angka dd { margin: 4px 0 0; font-size: 19px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .angka dd.kecil { font-size: 15px; }
+  .merah { color: var(--red); }
+  .kuning { color: var(--amber); }
+  .hijau { color: var(--green); }
+
+  .catatan {
+    border: 1px solid #fde68a; background: var(--amber-bg); color: #78350f;
+    border-radius: 8px; padding: 10px 12px; font-size: 12.5px; margin-bottom: 18px;
+  }
+  .catatan b { color: #7c2d12; }
+
+  .senyap { color: var(--muted); font-size: 12.5px; }
+  .kosong { padding: 28px 16px; text-align: center; color: var(--muted); font-size: 13.5px; }
+  .sembunyi { display: none !important; }
+  footer { margin-top: 22px; color: var(--muted); font-size: 12px; }
+  code { font-family: ui-monospace, monospace; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <h1>Asisten AM — Stok &amp; Margin</h1>
+    <p>
+      Unggah file ekspor dari marketplace, sistem akan menandai SKU yang hampir habis
+      dan SKU yang dijual di bawah HPP. <b>Hanya rekomendasi</b> — tidak ada perubahan
+      yang dikirim ke marketplace.
+    </p>
+  </header>
+
+  <div class="catatan">
+    <b>Catatan prototipe.</b> Perhitungan berjalan di browser memakai data HPP internal
+    yang tertanam di halaman ini. Tingkat komisi tiap marketplace masih angka sementara —
+    belum dikonfirmasi dari kontrak penjual, sehingga nilai kerugian bisa berubah.
+  </div>
+
+  <!-- 1. Unggah -->
+  <section class="card">
+    <h2>1. Unggah file ekspor
+      <small>Shopee dan/atau TikTok Shop. Boleh lebih dari satu file.</small>
+    </h2>
+    <div class="body">
+      <div class="drop" id="drop" tabindex="0" role="button">
+        <strong>Letakkan file di sini, atau klik untuk memilih</strong>
+        <span>Format CSV hasil ekspor dari seller centre</span>
+      </div>
+      <input type="file" id="file" accept=".csv,text/csv" multiple class="sembunyi">
+      <div class="baris" id="status">
+        Belum ada file. Menampilkan <b>contoh data</b> dari hasil generate.
+      </div>
+      <div class="baris">
+        <button type="button" id="reset" style="display:none">Kembali ke contoh data</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Hasil -->
+  <section id="hasil" class="sembunyi">
+    <div class="card">
+      <h2>2. Ringkasan
+        <small id="ringkasSumber"></small>
+      </h2>
+      <div class="body">
+        <dl class="angka" id="angka"></dl>
+      </div>
+    </div>
+
+    <div class="card" id="kartuAlokasi">
+      <h2>3. Saran pemindahan stok
+        <small>Hanya jumlah tayang yang berubah antar marketplace — barang fisik tidak berpindah.</small>
+      </h2>
+      <div id="alokasi"></div>
+    </div>
+
+    <div class="card">
+      <h2>4. Daftar tindakan
+        <small id="daftarSumber"></small>
+      </h2>
+      <div id="daftar"></div>
+    </div>
+  </section>
+
+  <footer>
+    Angka dihitung ulang di browser dari file yang diunggah. Pada versi Next.js,
+    perhitungan dilakukan sekali di <code>src/metrics.py</code> dan diverifikasi oleh
+    39 checkpoint di <code>checkpoint.json</code>.
+  </footer>
+
+</div>
+<script id="data-contoh" type="application/json">__DATA_CONTOH__</script>
+<script id="tabel-hpp" type="application/json">__TABEL_HPP__</script>
+<script>
+__SKRIP__
+</script>
+</body>
+</html>
